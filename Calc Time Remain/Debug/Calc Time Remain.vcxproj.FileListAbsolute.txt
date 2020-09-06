@@ -1,0 +1,2 @@
+C:\Users\CFXHy\Documents\GitHub\Calculate-Time-Remaining\Calc Time Remain\Debug\Calc Time Remain.exe
+C:\Users\CFXHy\Documents\GitHub\Calculate-Time-Remaining\Calc Time Remain\Debug\Calc Time Remain.pdb

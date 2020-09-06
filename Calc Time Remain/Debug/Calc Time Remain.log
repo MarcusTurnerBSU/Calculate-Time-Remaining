@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\CFXHy\Documents\GitHub\Calculate-Time-Remaining\Calc Time Remain\Source.cpp(11,9): warning C4101: 'hoursLeft': unreferenced local variable
+C:\Users\CFXHy\Documents\GitHub\Calculate-Time-Remaining\Calc Time Remain\Source.cpp(9,9): warning C4101: 'daysInHours': unreferenced local variable
+  Calc Time Remain.vcxproj -> C:\Users\CFXHy\Documents\GitHub\Calculate-Time-Remaining\Calc Time Remain\Debug\Calc Time Remain.exe
