@@ -5,7 +5,7 @@ int main() {
 
 	double totalHours = 0;
 	double hours = 0;
-	double aDay = 24;
+	double day = 24;
 	double daysInHours;
 	int daysLeft;
 	double hoursLeft;
@@ -13,22 +13,14 @@ int main() {
 	cout << "How many days are left? ";
 	cin >> daysLeft;
 
-	while (hours >= 0) {
-		cout << "Enter how many hours per course? (-1 to end): ";
-		cin >> hours;
-		if (hours < 0)
-			break;
-		totalHours += hours;
-	}
 
-	//times daysleft by 24 to convert into hours then divide it by totalhours to get
+	daysInHours = daysLeft * day;
+	hoursLeft = totalHours / daysLeft;
 
-	//daysInHours = daysLeft * aDay;
-	//hoursLeft = daysInHours / totalHours;
+	cout << "You have " << daysLeft << " days left." << endl;
+	cout << "The total amount of hours for all the courses are: " << totalHours << endl;
+	cout << "Hours to do in a day: " << hoursLeft << endl;
+	cout << "amount of days in hours: " << daysInHours << endl;
 
-	//cout << daysInHours << endl;
-	cout << daysLeft << endl;
-	//cout << hoursLeft << endl;
-	cout << totalHours << endl;
 	return 0;
 }
