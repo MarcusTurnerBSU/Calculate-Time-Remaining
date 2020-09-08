@@ -13,6 +13,13 @@ int main() {
 	cout << "How many days are left? ";
 	cin >> daysLeft;
 
+	while (hours >= 0) {
+		cout << "Enter how many hours per course? (-1 to end): ";
+		cin >> hours;
+		if (hours < 0)
+			break;
+		totalHours += hours;
+	}
 
 	daysInHours = daysLeft * day;
 	hoursLeft = totalHours / daysLeft;
